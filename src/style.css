@@ -1,0 +1,48 @@
+body {
+    width: 600px;
+    margin: 20px auto;
+}
+
+div.new-book {
+    padding: 10px 20px;
+    border: 3px dashed tomato;
+    display: flex;
+
+    input {
+        flex: 1;
+    }
+
+    button {
+        margin-left: 10px;
+    }
+}
+
+ul.books {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    li {
+        display: block;
+        padding: 10px 30px;
+        font-size: 18px;
+        color: white;
+        background: dodgerblue;
+        margin-block: 2px;
+        min-width: 500px;
+    }
+
+    li:nth-child(2n) {
+        min-width: 525px;
+    }
+
+    li:nth-child(3n) {
+        margin-right: 20px;
+    }
+
+    li:nth-child(3n+2) {
+        margin-right: 12px;
+    }
+}

@@ -1,0 +1,4 @@
+1. Extract this ZIP.
+2. Keep index.html and assets together.
+3. Open index.html in Google Chrome.
+4. Select a situation, click products, and confirm.
